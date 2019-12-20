@@ -24,7 +24,6 @@ public class LoginTest extends BaseClass {
 		
 		LoginPage loginPage= new LoginPage(driver);
 		loginPage.loginToOrangeHRM(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1));
-		Assert.assertEquals(1, 2);
 		
 		logger.pass("Login is successfull");
 
