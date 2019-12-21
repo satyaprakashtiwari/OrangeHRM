@@ -1,0 +1,7 @@
+com\orange\pages\BaseClass.class
+com\orange\utilities\ExcelDataProvider.class
+com\orange\utilities\BrowserFactory.class
+com\orange\testCases\LoginTest.class
+com\orange\utilities\ConfigDataProvider.class
+com\orange\utilities\Helper.class
+com\orange\pages\LoginPage.class

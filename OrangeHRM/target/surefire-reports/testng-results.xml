@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up the reports and starting tests]]>
+    </line>
+    <line>
+      <![CDATA[Configurations are done- Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Starting browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Reports generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12980" started-at="2019-12-21T01:08:39 IST" finished-at="2019-12-21T01:08:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12980" started-at="2019-12-21T01:08:39 IST" finished-at="2019-12-21T01:08:52 IST">
+      <class name="com.orange.testCases.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="setUpSuite" is-config="true" duration-ms="983" started-at="2019-12-21T01:08:38 IST" finished-at="2019-12-21T01:08:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up the reports and starting tests]]>
+            </line>
+            <line>
+              <![CDATA[Configurations are done- Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="setUp" is-config="true" duration-ms="7089" started-at="2019-12-21T01:08:39 IST" finished-at="2019-12-21T01:08:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToApp1()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="loginToApp1" duration-ms="1282" started-at="2019-12-21T01:08:46 IST" finished-at="2019-12-21T01:08:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp1 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="tearDownMethod" is-config="true" duration-ms="1018" started-at="2019-12-21T01:08:47 IST" finished-at="2019-12-21T01:08:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp1 status=SUCCESS method=LoginTest.loginToApp1()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="loginToApp2()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="loginToApp2" duration-ms="1129" started-at="2019-12-21T01:08:48 IST" finished-at="2019-12-21T01:08:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp2 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="tearDownMethod" is-config="true" duration-ms="793" started-at="2019-12-21T01:08:50 IST" finished-at="2019-12-21T01:08:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp2 status=SUCCESS method=LoginTest.loginToApp2()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orange.testCases.LoginTest@3fee9989]" name="tearDown" is-config="true" duration-ms="1610" started-at="2019-12-21T01:08:50 IST" finished-at="2019-12-21T01:08:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
