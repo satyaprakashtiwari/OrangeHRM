@@ -8,6 +8,7 @@
           <include name="loginToApp1"/>
           <include name="tearDown"/>
           <include name="tearDownMethod"/>
+          <include name="loginToApp2"/>
           <include name="setUpSuite"/>
           <include name="setUp"/>
         </methods>
